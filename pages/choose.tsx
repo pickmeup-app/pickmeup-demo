@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../../styles/common.module.css";
+import styles from "../styles/common.module.css";
 
-const Driver: NextPage = () => {
+const Choose: NextPage = () => {
     return (
         <div className={styles.container}>
             <Head>
@@ -13,7 +13,9 @@ const Driver: NextPage = () => {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Welcome passenger!</h1>
+                <h1 className={styles.title}>
+                    Welcome to <a href="https://nextjs.org">Next.js!</a>
+                </h1>
             </main>
 
             <footer className={styles.footer}>
@@ -32,4 +34,4 @@ const Driver: NextPage = () => {
     );
 };
 
-export default Driver;
+export default Choose;
