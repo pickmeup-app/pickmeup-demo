@@ -8,6 +8,9 @@
     display: flex;
     flex: 1;
     padding: 1.5rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-items: stretch;
 }
 
 .main {
@@ -30,8 +33,31 @@
 .header {
     flex: 0;
     background-image: url("../public/header-arc.svg");
-    min-height: 20vh;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+
+.pickmeup {
+    background-image: url("../public/pickmeup.svg");
+    min-height: 70px;
+    width: 226px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 20px 0 0 20px;
+}
+
+.logo {
+    background-image: url("../public/logo.svg");
+    min-height: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 120px;
+}
+
+.pageIndex {
+    background-color: #0d304f;
 }

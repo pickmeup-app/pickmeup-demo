@@ -6,7 +6,13 @@ import PageContainer from "../components/page-container";
 import styles from "../styles/common.module.css";
 
 const Home: NextPage = () => {
-    return <PageContainer>Index page</PageContainer>;
+    return (
+        <div className={styles.pageIndex}>
+            <PageContainer>
+                <div className={styles.pickmeup}></div>
+            </PageContainer>
+        </div>
+    );
 };
 
 export default Home;
