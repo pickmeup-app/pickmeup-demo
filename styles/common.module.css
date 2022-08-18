@@ -39,6 +39,15 @@
     background-position: bottom;
 }
 
+.headerDefault {
+    flex: 0;
+    background-image: url("../public/header-arc-dark.svg");
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
 .pickmeup {
     background-image: url("../public/pickmeup.svg");
     min-height: 70px;
