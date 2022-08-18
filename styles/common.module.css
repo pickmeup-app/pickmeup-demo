@@ -70,3 +70,46 @@
 .pageIndex {
     background-color: #0d304f;
 }
+
+.textLeft {
+    align-self: flex-start;
+}
+
+.gmail {
+    background-image: url("../public/google-icon.svg");
+    min-height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 0 0 20px;
+}
+
+.gmailButton {
+    background-image: url("../public/gmail-button.svg");
+    min-height: 70px;
+    width: 326px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 20px 0 0 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.signupButton {
+    background-image: url("../public/signup-button.svg");
+    min-height: 70px;
+    width: 326px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 20px 0 0 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+}
