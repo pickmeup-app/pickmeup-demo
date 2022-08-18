@@ -8,7 +8,7 @@ import styles from "../styles/common.module.css";
 const Home: NextPage = () => {
     return (
         <div className={styles.pageIndex}>
-            <PageContainer>
+            <PageContainer hideFooter>
                 <div className={styles.pickmeup}></div>
             </PageContainer>
         </div>

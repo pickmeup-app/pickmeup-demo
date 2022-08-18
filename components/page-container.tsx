@@ -3,7 +3,11 @@ import { PropsWithChildren, useEffect } from "react";
 import styles from "../styles/common.module.css";
 import Header from "./header";
 
-const PageContainer: React.FC<PropsWithChildren> = ({ children }) => {
+interface PageContainerProps extends PropsWithChildren {
+    hideFooter?: boolean;
+}
+
+const PageContainer: React.FC<PageContainerProps> = ({ children, hideFooter }) => {
     useEffect(() => {
         screen.orientation.lock("portrait");
     }, []);
@@ -17,7 +21,7 @@ const PageContainer: React.FC<PropsWithChildren> = ({ children }) => {
             </Head>
             <Header />
             <div className={styles.content}>{children}</div>
-            <div className={styles.footer} />
+            {!hideFooter && <div className={styles.footer} />}
         </div>
     );
 };
