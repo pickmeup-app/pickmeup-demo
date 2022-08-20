@@ -85,6 +85,8 @@
     margin: 0 0 0 20px;
 }
 
+/* buttons */
+
 .gmailButton {
     background-image: url("../public/gmail-button.svg");
     min-height: 70px;
@@ -112,4 +114,53 @@
     flex-wrap: nowrap;
     align-items: center;
     color: white;
+}
+
+.darkButton {
+    cursor: pointer;
+    text-align: center;
+    vertical-align:middle;
+    font-family: Roboto, Regular;
+    font-size: 19pt;
+    background-color: #0D304F;
+    border-radius: 8px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: white; 
+    
+    min-height: 70px;
+    width: 50%;
+    margin: 24px 0 0 24px;
+}
+
+/* text */
+
+.chooseText{
+    font-size: 24pt;
+}
+
+.greenTextSpan{
+    background-color: #B3DD47;
+}
+
+/* forms */
+
+
+.myInput{
+    width: 100%;
+    background-color: #F0F3F4;
+    border: none;
+}
+
+.myRangeInput{
+    background-color: #B3DD47;
+}
+
+.alignSpaceBetween{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }

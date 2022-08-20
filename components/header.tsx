@@ -3,9 +3,7 @@ import styles from "../styles/common.module.css";
 
 const Header: FunctionComponent = () => {
     return (
-        <div className={styles.header}>
-            <div className={styles.logo} />
-        </div>
+        <div className={styles.header}></div>
     );
 };
 
